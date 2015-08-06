@@ -5,7 +5,15 @@
 
     $app->get("/hello", function() {
         return "Hello friend!";
+
+
+
     });
 
+    $app->get("/goodbye", function() {
+    return "Goodbye friend!";
+
+
+  });
     return $app;
 ?>
